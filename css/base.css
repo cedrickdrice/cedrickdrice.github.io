@@ -869,3 +869,24 @@ textarea {
 }
 
 /*# sourceMappingURL=base.css.map */
+
+#resume .timeline-content p.remote::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-top: 1.8rem;
+}
+
+#resume .timeline-content h4.remote-h4::after {
+    content: "";
+    display: none;
+    height: 0;
+    width: 0;
+    background: rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
