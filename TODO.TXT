@@ -1,0 +1,6 @@
+
+- CHANGE SKILLS, REMOVE SLIDER
+
+heroku login
+git push heroku master
+
