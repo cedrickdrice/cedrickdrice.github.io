@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f4a4268-f085-45c4-a67d-73e68958ef2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\CEDRICK Files\Portfolio\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26wzAqvAMd8yEgp24A6SYDe9w6V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CEDRICK Files/Portfolio/images/portfolio&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CEDRICK Files\Portfolio\images\portfolio" />
+      <recent name="D:\CEDRICK Files\Portfolio\images\projects" />
+      <recent name="D:\CEDRICK Files\Portfolio\images" />
+      <recent name="D:\CEDRICK Files\Portfolio\assets\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f4a4268-f085-45c4-a67d-73e68958ef2d" name="Default Changelist" comment="" />
+      <created>1648349295599</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648349295599</updated>
+      <workItem from="1648349296724" duration="8071000" />
+      <workItem from="1648357491986" duration="1618000" />
+      <workItem from="1648361069676" duration="290000" />
+      <workItem from="1648380947603" duration="40000" />
+      <workItem from="1648565783481" duration="727000" />
+      <workItem from="1651398874806" duration="6000" />
+      <workItem from="1659413827621" duration="2084000" />
+      <workItem from="1659420430210" duration="6407000" />
+      <workItem from="1659506260990" duration="586000" />
+      <workItem from="1659521015392" duration="31000" />
+      <workItem from="1660391206130" duration="123000" />
+      <workItem from="1660391340808" duration="154000" />
+      <workItem from="1660405071610" duration="28000" />
+      <workItem from="1660740045428" duration="1770000" />
+      <workItem from="1660744198867" duration="762000" />
+      <workItem from="1660813302004" duration="34000" />
+      <workItem from="1669090601996" duration="751000" />
+      <workItem from="1669091493255" duration="503000" />
+      <workItem from="1670413086565" duration="353000" />
+      <workItem from="1671854703315" duration="2322000" />
+      <workItem from="1671860496851" duration="86000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
