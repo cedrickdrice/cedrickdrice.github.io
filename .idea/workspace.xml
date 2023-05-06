@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f4a4268-f085-45c4-a67d-73e68958ef2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CustomTotal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/init-jsforce.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/qcp.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -38,7 +47,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CEDRICK Files/Portfolio/images/portfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/HPS Development/HPS SF Plugin&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -85,6 +94,12 @@
       <workItem from="1671860496851" duration="519000" />
       <workItem from="1671881886823" duration="137000" />
       <workItem from="1671882039337" duration="186000" />
+      <workItem from="1672655771663" duration="600000" />
+      <workItem from="1672711705313" duration="1308000" />
+      <workItem from="1672741454986" duration="55000" />
+      <workItem from="1679552053691" duration="70000" />
+      <workItem from="1680427301290" duration="1826000" />
+      <workItem from="1683350852061" duration="219000" />
     </task>
     <servers />
   </component>
