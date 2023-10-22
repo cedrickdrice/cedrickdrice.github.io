@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f4a4268-f085-45c4-a67d-73e68958ef2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomTotal.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/init-jsforce.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/qcp.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +91,9 @@
       <workItem from="1672741454986" duration="55000" />
       <workItem from="1679552053691" duration="70000" />
       <workItem from="1680427301290" duration="1826000" />
-      <workItem from="1683350852061" duration="219000" />
+      <workItem from="1683350852061" duration="338000" />
+      <workItem from="1683430555002" duration="84000" />
+      <workItem from="1697990208644" duration="1199000" />
     </task>
     <servers />
   </component>
