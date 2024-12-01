@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4f4a4268-f085-45c4-a67d-73e68958ef2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/intro-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/intro-bg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,18 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/HPS Development/HPS SF Plugin&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "I:/CEDRICK Files/Portfolio/images",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\CEDRICK Files\Portfolio\images" />
       <recent name="D:\CEDRICK Files\Portfolio\images\portfolio" />
       <recent name="D:\CEDRICK Files\Portfolio\images\projects" />
       <recent name="D:\CEDRICK Files\Portfolio\images" />
@@ -95,7 +98,9 @@
       <workItem from="1697990208644" duration="1199000" />
       <workItem from="1697991432198" duration="253000" />
       <workItem from="1698058353243" duration="162000" />
-      <workItem from="1699211601449" duration="575000" />
+      <workItem from="1699211601449" duration="954000" />
+      <workItem from="1699260655190" duration="623000" />
+      <workItem from="1733071376505" duration="4552000" />
     </task>
     <servers />
   </component>
