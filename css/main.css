@@ -328,7 +328,6 @@ table {
 th, td {
 	padding: 1.5rem 3rem;
 	text-align: left;
-	border-bottom: 1px solid #E8E8E8;
 }
 th {
 	color: #313131;
@@ -1552,6 +1551,10 @@ header .logo a {
 .about-content .skill-bars {
 	margin-top: 6rem;
 }
+.about-content img {
+	width: 50px;
+	height: 50px;
+}
 
 .button-section {
 	text-align: center;
@@ -2593,6 +2596,10 @@ footer .copyright span:last-child::after {
 }
 #go-top a:hover {
 	background: #000000;
+}
+
+.font-color-base, a.font-color-base, a.font-color-base:visited {
+	color: #6e6e6e;
 }
 
 /*# sourceMappingURL=main.css.map */
