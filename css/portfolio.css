@@ -809,6 +809,8 @@ button {
 
 .experience-main {
 	min-width: 0;
+	grid-column: 1;
+	grid-row: 1;
 }
 
 .experience-logo {
@@ -820,6 +822,8 @@ button {
 	overflow: hidden;
 	border-radius: 50%;
 	background: #fff;
+	grid-column: 2;
+	grid-row: 1;
 }
 
 .experience-logo img {
@@ -1230,19 +1234,14 @@ button {
 	}
 
 	.experience-content-grid {
-		grid-template-columns: minmax(0, 1fr);
-		gap: 0;
+		display: block;
 	}
 
 	.experience-logo {
-		grid-row: 1;
-		width: 9rem;
-		height: 9rem;
-		margin-bottom: 1.4rem;
-	}
-
-	.experience-main {
-		grid-row: 2;
+		float: right;
+		width: 7.2rem;
+		height: 7.2rem;
+		margin: 0 0 1rem 1rem;
 	}
 
 	.experience-logo img {
