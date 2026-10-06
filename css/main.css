@@ -1707,6 +1707,23 @@ header .logo a {
 	left: 0;
 	bottom: 0;
 }
+#resume .tech-stack {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .6rem;
+	list-style: none;
+	margin: 1.2rem 0 0;
+	padding: 0;
+}
+#resume .tech-stack li {
+	margin: 0;
+	padding: .35rem .8rem;
+	border: 1px solid rgba(255, 0, 119, 0.35);
+	border-radius: 3px;
+	color: #313131;
+	font-size: 1.2rem;
+	line-height: 1.6;
+}
 
 /**
  * responsive:
