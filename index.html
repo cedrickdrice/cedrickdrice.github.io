@@ -1,472 +1,348 @@
-<!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
-
+<!doctype html>
+<html lang="en">
 <head>
-	<!--- basic page needs
-   ================================================== -->
 	<meta charset="utf-8">
-	<title>Cedrick Drice - Portfolio</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<!-- mobile specific metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- CSS
-   ================================================== -->
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/vendor.css">
-	<!-- script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
-	<script src="js/pace.min.js"></script>
-	<!-- favicons
-	================================================== -->
-	<link rel="icon" type="image/png" href="favicon.png"> </head>
-
-<body id="top">
-<!-- header
-================================================== -->
-<header>
-	<div class="row">
-		<div class="top-bar"> <a class="menu-toggle" href="#"><span>Menu</span></a>
-			<div class="logo"> <a href="index.html">CD</a> </div>
-			<nav id="main-nav-wrap">
-				<ul class="main-navigation">
-					<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
-					<li><a class="smoothscroll" href="#about" title="">About</a></li>
-					<li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
-					<li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
-					<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
-				</ul>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="I build full-stack applications and integrations across PHP/Laravel, Vue.js, and Python/Django—connecting business platforms, APIs, and data.">
+	<meta name="author" content="Cedrick Drice">
+	<meta name="theme-color" content="#111514">
+	<link rel="canonical" href="https://cedrickdrice.github.io/">
+	<title>Cedrick Drice — Software Engineer</title>
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" href="css/portfolio.css">
+	<script src="js/portfolio.js" defer></script>
+</head>
+<body>
+	<a class="skip-link" href="#main">Skip to content</a>
+	<header class="site-header">
+		<div class="container header-inner">
+			<a class="brand" href="#home" aria-label="Cedrick Drice, home">
+				<span class="brand-mark" aria-hidden="true">CD</span>
+				<span class="brand-name">Cedrick Drice</span>
+			</a>
+			<button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false">
+				<span class="menu-label">Menu</span>
+				<span class="menu-icon" aria-hidden="true"></span>
+			</button>
+			<nav class="site-nav" id="site-nav" aria-label="Main navigation">
+				<a href="#home">Home</a>
+				<a href="#expertise">Expertise</a>
+				<a href="#experience">Experience</a>
+				<a href="#work">Work</a>
+				<a href="#contact">Contact</a>
 			</nav>
 		</div>
-		<!-- /top-bar -->
-	</div>
-	<!-- /row -->
-</header>
-<!-- /header -->
-<!-- intro section
-================================================== -->
-<section id="intro">
-	<div class="intro-overlay"></div>
-	<div class="intro-content">
-		<div class="row">
-			<div class="col-twelve">
-				<h5>Hello, World.</h5>
-				<h1>I'm Cedrick Drice.</h1>
-				<p class="intro-position"> <span>Full-Stack Web Developer</span> <span>Software Engineer</span> </p> <a class="button stroke smoothscroll" href="#about" title="">More About Me</a> </div>
-		</div>
-	</div>
-	<!-- /intro-content -->
-	<ul class="intro-social">
-		<li><a target="_blank" href="https://www.linkedin.com/in/cedrickdrice/"><i class="fa fa-linkedin"></i></a></li>
-		<li><a target="_blank" href="https://github.com/cedrickdrice"><i class="fa fa-github"></i></a></li>
-	</ul>
-	<!-- /intro-social -->
-</section>
-<!-- /intro -->
-<!-- about section
-================================================== -->
-<section id="about">
-	<div class="row section-intro">
-		<div class="col-twelve">
-			<h5>About</h5>
-			<h1>Let me introduce myself.</h1>
-			<div class="intro-info">
-				<p class="lead">
-					<p class="drop-cap">
-						5 years of experience as an analytically-driven Web Developer, specializing in E-Commerce and Web Solutions development. Proficient in the latest backend and frontend technologies, committed to delivering high-quality applications and software solutions.
-						Skilled in web development, production, and technical support, with expertise in resource management and providing technical leadership.
-					</p>
-				</p>
-			</div>
-		</div>
-	</div>
-	<!-- /section-intro -->
-	<div class="row about-content">
-		<div class="col-six tab-full">
-			<h3>Profile</h3>
-			<ul class="info-list">
-				<li> <strong>Name:</strong> <span>Cedrick Drice</span> </li>
-				<li> <strong>Birth Date:</strong> <span>September 15, 1999</span> </li>
-				<li> <strong>Github</strong> <span>https://github.com/cedrickdrice</span> </li>
-				<li> <strong>Email:</strong> <span>cedrick.drice@gmail.com</span> </li>
-			</ul>
-			<!-- /info-list -->
-		</div>
-		<div class="col-six tab-full">
-			<h3>Proficiency</h3>
-			<ul class="skill-bars">
-				<li>
-					<div class="progress percent99"><span>95%</span></div> <strong>PHP</strong> </li>
-				<li>
-					<div class="progress percent95"><span>95%</span></div> <strong>Laravel</strong> </li>
-				<li>
-					<div class="progress percent95"><span>90%</span></div> <strong>Vue.JS</strong> </li>
-				<li>
-					<div class="progress percent99"><span>90%</span></div> <strong>Python</strong> </li>
-			</ul>
-			<!-- /skill-bars -->
-		</div>
-		<div class="col-twelve tab-full">
-			<h3>Skills</h3>
-			<p>Over the course of my professional experience, I have successfully implemented and utilized a range of cutting-edge tools and technologies that allow me to build robust, scalable, and maintainable web applications.</p>
-			<div class="row">
-				<div class="col-four tab-full">
-					<h4>Frontend</h4>
-					<ul class="disc">
-						<li>HTML5, CSS3, JavaScript</li>
-						<li>Bootstrap, Tailwind, jQuery</li>
-						<li>Vue.js and responsive UI design</li>
+	</header>
+
+	<main id="main">
+		<section class="hero section-shell" id="home" aria-labelledby="hero-title">
+			<div class="container hero-grid">
+				<div class="hero-copy">
+					<p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Software Engineer | Applications &amp; Integrations</p>
+					<h1 id="hero-title">Cedrick<br><span>Drice.</span></h1>
+					<p class="hero-intro">I build full-stack applications and integrations across PHP/Laravel, Vue.js, and Python/Django—connecting business platforms, APIs, and data.</p>
+					<p class="hero-career">My work has grown from web application development into full-stack engineering across multiple technology ecosystems. I have worked with PHP/Laravel and Vue.js, as well as Python/Django, and across APIs, business platforms, automation, cloud services, data, and infrastructure.</p>
+					<div class="hero-actions">
+						<a class="button button-primary" href="#experience">View my experience <span aria-hidden="true">↘</span></a>
+						<a class="text-link" href="#work">View selected work <span aria-hidden="true">→</span></a>
+					</div>
+					<ul class="social-links" aria-label="Social profiles">
+						<li><a href="https://www.linkedin.com/in/cedrickdrice/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+						<li><a href="https://github.com/cedrickdrice" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></li>
+						<li><a href="mailto:cedrick.drice@gmail.com">Email <span aria-hidden="true">↗</span></a></li>
 					</ul>
 				</div>
-				<div class="col-four tab-full">
-					<h4>Backend</h4>
-					<ul class="disc">
-						<li>PHP, Laravel, Python</li>
-						<li>REST APIs and web application architecture</li>
-						<li>Database integration and business logic</li>
-					</ul>
-				</div>
-				<div class="col-four tab-full">
-					<h4>Tools & Workflow</h4>
-					<ul class="disc">
-						<li>Git, GitHub, CI/CD practices</li>
-						<li>Google Cloud Platform and hosting</li>
-						<li>Salesforce, Power Automate, and QuickBooks</li>
-					</ul>
+				<aside class="hero-aside" aria-label="Technical range">
+					<p class="aside-label">Working across stacks</p>
+					<div class="stack-line"><span class="stack-index">01</span><span>PHP <b>/</b> Laravel</span></div>
+					<div class="stack-line"><span class="stack-index">02</span><span>Vue.js <b>/</b> Typescript</span></div>
+					<div class="stack-line"><span class="stack-index">03</span><span>Python <b>/</b> Django</span></div>
+					<div class="stack-line"><span class="stack-index">04</span><span>Systems <b>/</b> Integrations</span></div>
+					<p class="aside-note">Applications, platforms, and the connections between them.</p>
+				</aside>
+			</div>
+			<a class="scroll-cue" href="#expertise"><span aria-hidden="true">↓</span> Explore</a>
+		</section>
+
+		<section class="section-shell expertise-section" id="expertise" aria-labelledby="expertise-title">
+			<div class="container">
+				<header class="section-heading">
+					<p class="eyebrow">What I work on</p>
+					<h2 id="expertise-title">Expertise</h2>
+					<p>Technology experience, organized by the work it supports.</p>
+				</header>
+				<div class="expertise-grid">
+					<article class="expertise-card">
+						<span class="card-number">01</span>
+						<h3>Full-Stack Engineering</h3>
+						<p>Build and maintain web applications across frontend and backend systems.</p>
+						<ul class="tag-list" aria-label="Technologies">
+							<li>PHP</li><li>Laravel</li><li>Vue.js</li><li>JavaScript</li><li>Typescript</li><li>Python</li><li>Django</li>
+						</ul>
+					</article>
+					<article class="expertise-card">
+						<span class="card-number">02</span>
+						<h3>Systems &amp; Integrations</h3>
+						<p>Connect business platforms, APIs, databases, and internal systems.</p>
+						<ul class="tag-list" aria-label="Technologies">
+							<li>REST APIs</li><li>Salesforce</li><li>QuickBooks Online</li><li>WooCommerce</li><li>WordPress</li>
+						</ul>
+					</article>
+					<article class="expertise-card">
+						<span class="card-number">03</span>
+						<h3>Cloud &amp; Infrastructure</h3>
+						<p>Work across cloud environments, containers, networking, and infrastructure.</p>
+						<ul class="tag-list" aria-label="Technologies">
+							<li>AWS</li><li>Google Cloud</li><li>Docker</li><li>Terraform</li><li>FortiGate</li>
+						</ul>
+					</article>
+					<article class="expertise-card">
+						<span class="card-number">04</span>
+						<h3>Data &amp; Databases</h3>
+						<p>Work with application databases, geospatial data, and data pipelines.</p>
+						<ul class="tag-list" aria-label="Technologies">
+							<li>MySQL</li><li>PostgreSQL</li><li>PostGIS</li><li>BigQuery</li><li>MongoDB</li><li>Redis</li>
+						</ul>
+					</article>
+					<article class="expertise-card">
+						<span class="card-number">05</span>
+						<h3>Automation</h3>
+						<p>Build workflows that reduce manual processes and connect business systems.</p>
+						<ul class="tag-list" aria-label="Technologies">
+							<li>Power Automate</li><li>ETL</li><li>API automation</li><li>Data synchronization</li>
+						</ul>
+					</article>
+					<article class="expertise-card">
+						<span class="card-number">06</span>
+						<h3>Business Systems</h3>
+						<p>Develop and support enterprise and operational platforms.</p>
+						<ul class="tag-list" aria-label="Technologies">
+							<li>Salesforce</li><li>Salesforce CPQ</li><li>QuickBooks Online</li><li>Google Workspace</li>
+						</ul>
+					</article>
 				</div>
 			</div>
-		</div>
-	</div>
-</section>
-<!-- /process-->
-<!-- resume Section
-================================================== -->
-<section id="resume" class="grey-section">
-	<div class="row section-intro">
-		<div class="col-twelve">
-			<h5>Resume</h5>
-			<h1>My Credentials</h1>
-			<p class="lead">Throughout my career, I've worked with international companies, gaining valuable experience in developing web solutions and collaborating across various industries. </p>
-		</div>
-	</div>
-	<!-- /section-intro-->
-	<div class="row resume-timeline">
-		<div class="col-twelve resume-header">
-			<h2>Work Experience</h2> </div>
-		<!-- /resume-header -->
-		<div class="col-twelve">
-			<div class="timeline-wrap">
-				<div class="timeline-block">
-					<div class="timeline-ico"> <i class="fa fa-briefcase"></i> </div>
-					<div class="timeline-header">
-						<h3>Senior Web Developer</h3>
-						<p>Oct 2022 - Present</p>
-					</div>
-					<div class="timeline-content">
-						<h4 class="remote-h4" style="padding-bottom: 0px; margin-bottom: 0px;">NexxtGen</h4>
-						<p class="remote" style="margin-bottom: 1.8rem;">Austin, Texas, United States · Remote</p>
-						<p>
-						<ul class="disc">
-							<li>Maintain and evolve the company website (HPS and Nexxtgen) to meet the needs of the business</li>
-							<li>Developing customized solutions within the Salesforce platform, Powerautomate, and Quickbooks</li>
-							<li>Developing custom scripts on Ruby, Python, or Node JS by building new apps on Google Cloud Platform services</li>
-						</ul>
-						</p>
-					</div>
-				</div>
-				<div class="timeline-block">
-					<div class="timeline-ico"> <i class="fa fa-briefcase"></i> </div>
-					<div class="timeline-header">
-						<h3>Frontend Developer</h3>
-						<p>Nov 2024 - Jan 2026</p>
-					</div>
-					<div class="timeline-content">
-						<h4>Experiential One</h4>
-						<p>Worked across a Vue.js frontend and Django/PostgreSQL backend for an experiential learning platform, implementing student workflows, program and opportunity management, task functionality, database changes, and automated frontend testing.</p>
-						<ul class="disc">
-							<li>Backend database changes and Django migrations involving programs, opportunities, user/program relationships, tasks, task instructions, task responses, task reviews/status, due dates, PostgreSQL/PostGIS data, and GIN indexing.</li>
-							<li>Frontend automated testing with Vitest and Vue Test Utils, including complex form behavior and FormData submissions.</li>
-						</ul>
-						<ul class="tech-stack" aria-label="Experiential One technology stack">
-							<li>Vue.js</li>
-							<li>Pinia</li>
-							<li>Python</li>
-							<li>Django</li>
-							<li>PostgreSQL</li>
-							<li>PostGIS</li>
-							<li>Docker</li>
-							<li>Vitest</li>
-							<li>Vue Test Utils</li>
-						</ul>
-					</div>
-				</div>
-				<div class="timeline-block">
-					<div class="timeline-ico"> <i class="fa fa-briefcase"></i> </div>
-					<div class="timeline-header">
-						<h3>Senior Web Developer</h3>
-						<p>Feb 2022 - Sep 2022</p>
-					</div>
-					<div class="timeline-content">
-						<h4>Cafe24 Philippines</h4>
-						<p>
-						<ul class="disc">
-							<li>One of the lead developer that handles the project Reviewtalk which is a customer review service and paid application.</li>
-							<li>Responsible for research and handling documentation to improve project development</li>
-							<li>Solved complex technical issues, Technical coaching on junior developer and code review</li>
-						</ul>
-						</p>
-					</div>
-				</div>
-				<!-- /timeline-block -->
-				<div class="timeline-block">
-					<div class="timeline-ico"> <i class="fa fa-briefcase"></i> </div>
-					<div class="timeline-header">
-						<h3>Junior Web Developer</h3>
-						<p>Apr 2019 - Feb 2022</p>
-					</div>
-					<div class="timeline-content">
-						<h4>Cafe24 Philippines</h4>
-						<p>
-						<ul class="disc">
-							<li>Developed applications related to e-commerce and infrastructure system to company's requirements.</li>
-							<li>Execute cross test or do a dev unit testing with peer junior developers and do Code review</li>
-							<li>Deliver features using deployment tools (Build and Relay, Jenkins, etc.) and Use CI / CD tools to improve code quality</li>
-						</ul>
-						</p>
-					</div>
-				</div>
-				<!-- /timeline-block -->
-				<div class="timeline-block">
-					<div class="timeline-ico"> <i class="fa fa-briefcase"></i> </div>
-					<div class="timeline-header">
-						<h3>Freelance Web Developer</h3>
-						<p>Aug 2020 - Present</p>
-					</div>
-					<div class="timeline-content">
-						<h4>Freelance</h4>
-						<p>
-						<ul class="disc">
-							<li>Improved the customer interaction by showcasing the Portfolio, their services and their products.</li>
-							<li>Accepting web development from any Clients based on their Specifications. This often involves from Hosting Management, Web Designing, Development, Basic SEO and Maintaining the Site.</li>
-						</ul>
-						</p>
-					</div>
+		</section>
+
+		<section class="section-shell experience-section" id="experience" aria-labelledby="experience-title">
+			<div class="container">
+				<header class="section-heading">
+					<p class="eyebrow">Career history</p>
+					<h2 id="experience-title">Professional Experience</h2>
+					<p>Where I applied my engineering skills professionally.</p>
+				</header>
+				<div class="experience-list">
+					<article class="experience-card is-open">
+						<h3 class="experience-heading">
+							<button class="experience-trigger" id="experience-trigger-nexxtgen" type="button" aria-expanded="true" aria-controls="experience-panel-nexxtgen">
+								<span class="experience-trigger-copy"><span class="experience-role">Senior Web Developer</span><span class="experience-company">NexxtGen <span>· Austin, Texas · Remote</span></span></span>
+								<span class="experience-date">October 2022 – Present</span><span class="experience-indicator" aria-hidden="true"></span>
+							</button>
+						</h3>
+						<div class="experience-panel" id="experience-panel-nexxtgen" role="region" aria-labelledby="experience-trigger-nexxtgen">
+							<div class="experience-panel-inner"><div class="experience-body"><div class="experience-content-grid">
+								<div class="experience-main">
+									<p class="experience-location">Austin, Texas · Remote</p>
+									<ul class="experience-points">
+										<li><strong>Applications &amp; APIs</strong><span>PHP/Laravel, Vue.js, Python, and API-oriented application work.</span></li>
+										<li><strong>Business platforms &amp; integrations</strong><span>Salesforce/CPQ, QuickBooks Online, WooCommerce, and WordPress.</span></li>
+										<li><strong>Automation</strong><span>Replaced Zapier/Breadwinner automation with Power Automate, saving 30+ hours per month; ETL and data synchronization.</span></li>
+										<li><strong>Cloud &amp; data</strong><span>AWS, Google Cloud, BigQuery, PostgreSQL, Docker, and Terraform.</span></li>
+										<li><strong>Infrastructure &amp; Workspace</strong><span>FortiGate, VPN, SD-WAN, Starlink/connectivity management, and Google Workspace/domain/data migration and administration.</span></li>
+									</ul>
+									<ul class="tag-list experience-tags" aria-label="NexxtGen technologies">
+										<li>PHP</li><li>Laravel</li><li>Vue.js</li><li>Python</li><li>REST APIs</li><li>Salesforce</li><li>Salesforce CPQ</li>
+										<li>QuickBooks Online</li><li>Power Automate</li><li>AWS</li><li>Google Cloud</li><li>BigQuery</li><li>PostgreSQL</li>
+										<li>Docker</li><li>Terraform</li><li>FortiGate</li><li>Google Workspace</li>
+									</ul>
+								</div>
+								<div class="experience-logo"><img src="images/companies/nexxtgen.png" alt="NexxtGen logo" width="248" height="248"></div>
+							</div></div></div>
+						</div>
+					</article>
+					<article class="experience-card">
+						<h3 class="experience-heading">
+							<button class="experience-trigger" id="experience-trigger-experiential" type="button" aria-expanded="false" aria-controls="experience-panel-experiential">
+								<span class="experience-trigger-copy"><span class="experience-role">Frontend Software Engineer</span><span class="experience-company">JobsConnected, Inc. <span>· Remote</span></span></span>
+								<span class="experience-date">November 2024 – January 2026</span><span class="experience-indicator" aria-hidden="true"></span>
+							</button>
+						</h3>
+						<div class="experience-panel" id="experience-panel-experiential" role="region" aria-labelledby="experience-trigger-experiential" inert>
+							<div class="experience-panel-inner"><div class="experience-body"><div class="experience-content-grid">
+								<div class="experience-main">
+									<p class="experience-location">Remote</p>
+									<p>Contributed to frontend feature development and ongoing maintenance for Experiential One’s learning software.</p>
+									<ul class="experience-points">
+										<li><strong>Feature development</strong><span>Implemented frontend application features.</span></li>
+										<li><strong>Testing &amp; debugging</strong><span>Tested features and supported debugging.</span></li>
+										<li><strong>Application maintenance</strong><span>Contributed to ongoing software maintenance.</span></li>
+									</ul>
+									<ul class="tag-list experience-tags" aria-label="JobsConnected technologies">
+										<li>Vue.js</li><li>Git</li><li>Pinia</li><li>Vee-validate</li><li>Vitest</li><li>Vue Test Utils</li><li>Yarn</li>
+										<li>Python</li><li>Django</li><li>Django GIS</li><li>PostgreSQL</li><li>PostGIS</li><li>GDAL</li><li>Docker Compose</li>
+									</ul>
+								</div>
+								<div class="experience-logo"><img src="images/companies/jobs-connected.jpg" alt="JobsConnected logo" width="200" height="200"></div>
+							</div></div></div>
+						</div>
+					</article>
+					<article class="experience-card">
+						<h3 class="experience-heading">
+							<button class="experience-trigger" id="experience-trigger-cafe24" type="button" aria-expanded="false" aria-controls="experience-panel-cafe24">
+								<span class="experience-trigger-copy"><span class="experience-role">Web Developer (Junior &rarr; Senior)</span><span class="experience-company">Cafe24 Philippines</span></span>
+								<span class="experience-date">April 2019 – September 2022</span><span class="experience-indicator" aria-hidden="true"></span>
+							</button>
+						</h3>
+						<div class="experience-panel" id="experience-panel-cafe24" role="region" aria-labelledby="experience-trigger-cafe24" inert>
+							<div class="experience-panel-inner"><div class="experience-body"><div class="experience-content-grid">
+								<div class="experience-main">
+									<div class="promotion-stages">
+										<section class="promotion-stage">
+											<div class="promotion-stage-heading"><h4>Senior Web Developer</h4><p>February 2022 – September 2022</p></div>
+											<p>Led development on Reviewtalk, a paid customer-review service. Researched and documented improvements to project development, resolved technical issues, coached junior developers, and reviewed code.</p>
+											<ul class="tag-list experience-tags" aria-label="Cafe24 Senior Web Developer technologies">
+												<li>Jira</li><li>Figma</li><li>Code Review</li>
+											</ul>
+										</section>
+										<section class="promotion-stage">
+											<div class="promotion-stage-heading"><h4>Junior Web Developer</h4><p>April 2019 – February 2022</p></div>
+											<p>Developed e-commerce applications and infrastructure systems to meet company requirements. Performed cross-testing and development unit testing with peers, participated in code reviews, and delivered features using Build and Relay, Jenkins, and CI/CD tools.</p>
+											<ul class="tag-list experience-tags" aria-label="Cafe24 Junior Web Developer technologies">
+												<li>Flask</li><li>jQuery</li><li>Python (Programming Language)</li><li>Unit Testing</li><li>Redis</li>
+												<li>JavaScript</li><li>Laravel</li><li>PHP</li><li>Vue.js</li><li>MongoDB</li>
+											</ul>
+										</section>
+									</div>
+								</div>
+								<div class="experience-logo"><img src="images/companies/cafe24.jpg" alt="Cafe24 logo" width="447" height="447"></div>
+							</div></div></div>
+						</div>
+					</article>
 				</div>
 			</div>
-			<!-- /timeline-wrap -->
-		</div>
-	</div>
-	<!-- /resume-timeline -->
-	<div class="row resume-timeline">
-		<div class="col-twelve resume-header">
-			<h2>Education</h2> </div>
-		<!-- /resume-header -->
-		<div class="col-twelve">
-			<div class="timeline-wrap">
-				<div class="timeline-block">
-					<div class="timeline-ico"> <i class="fa fa-graduation-cap"></i> </div>
-					<div class="timeline-header">
-						<h3>Bachelor of Science in Computer Science</h3>
-						<p>June 2015 - April 2019</p>
+		</section>
+
+		<section class="section-shell work-section" id="work" aria-labelledby="work-title">
+			<div class="container">
+				<header class="section-heading section-heading-inline">
+					<div>
+						<p class="eyebrow">Things I built</p>
+						<h2 id="work-title">Selected Work</h2>
 					</div>
-					<div class="timeline-content">
-						<h4>University of Caloocan City</h4>
-						<ul class="disc">
-							<li>Being a UCCIAN equips students with basic topics on illustration, web design, animation, technical drafting, and computer programming. </li>
-							<li>Showcase our Thesis through Thesis Exhibit</li>
-						</ul>
-					</div>
-				</div>
-				<!-- /timeline-block -->
-			</div>
-			<!-- /timeline-wrap -->
-		</div>
-		<!-- /col-twelve -->
-	</div>
-	<!-- /resume-timeline -->
-</section>
-<!-- /features -->
-<!-- Portfolio Section
-================================================== -->
-<section id="portfolio">
-	<div class="row section-intro">
-		<div class="col-twelve">
-			<h5>Portfolio</h5>
-			<h1>Featured Projects</h1>
-			<p class="lead">Browse a collection of web applications I've built for clients.</p>
-		</div>
-	</div>
-	<!-- /section-intro-->
-	<div class="row portfolio-content">
-		<div class="col-twelve">
-			<!-- portfolio-wrapper -->
-			<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-				<!-- /folio-item -->
-				<div class="bgrid folio-item">
-					<div class="item-wrap"> <img src="images/projects/TRAVELERPLUS.png" alt="Salad">
-						<a href="https://travelerplus.com/" target="_blank" rel="noopener noreferrer" class="overlay">
-							<div class="folio-item-table">
-								<div class="folio-item-cell">
-									<h3 class="folio-title">Travelerplus</h3> <span class="folio-types">
-		     					       	  Travel and Tours | Social Site | Web Development | Hosting
-		     					      </span>
-								</div>
-							</div>
+					<p>Selected web applications, business websites, and management systems built for clients.</p>
+				</header>
+
+				<div class="project-grid">
+					<article class="project-card">
+						<a class="project-image" href="https://travelerplus.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Travelerplus">
+							<img src="images/projects/TRAVELERPLUS.png" alt="Travelerplus project preview" loading="lazy" decoding="async">
+							<span class="image-arrow" aria-hidden="true">↗</span>
 						</a>
-					</div>
-				</div>
-				<!-- /folio-item -->
-				<div class="bgrid folio-item">
-					<div class="item-wrap"> <img src="images/projects/ORTIGAS%20REAL%20ESTATE.png" alt="Liberty">
-						<a href="https://ortigasrealestate.com/" target="_blank" rel="noopener noreferrer" class="overlay">
-							<div class="folio-item-table">
-								<div class="folio-item-cell">
-									<h3 class="folio-title">Ortigas Real Estate</h3> <span class="folio-types">
-		     					       	  Real Estate | Web Development | Hosting
-		     					       </span>
-								</div>
-							</div>
+						<div class="project-card-body">
+							<p class="project-type">Travel · Social platform</p>
+							<h3><a href="https://travelerplus.com/" target="_blank" rel="noopener noreferrer">Travelerplus <span aria-hidden="true">↗</span></a></h3>
+							<p>A travel social network and blog with business pages for travel agencies and hotels to promote travel deals. Work included portfolio-related and Facebook-like functionality.</p>
+							<ul class="tag-list"><li>Social features</li><li>Business pages</li><li>Blog &amp; content</li><li>Web development</li></ul>
+						</div>
+					</article>
+					<article class="project-card">
+						<a class="project-image" href="https://ortigasrealestate.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Ortigas Real Estate">
+							<img src="images/projects/ORTIGAS%20REAL%20ESTATE.png" alt="Ortigas Real Estate project preview" loading="lazy" decoding="async">
+							<span class="image-arrow" aria-hidden="true">↗</span>
 						</a>
-					</div>
-				</div>
-				<!-- /folio-item -->
-				<!-- /folio-item -->
-				<div class="bgrid folio-item">
-					<div class="item-wrap"> <img src="images/projects/KEYPOINT%20BROKERAGE.png" alt="Clouds">
-						<a href="http://keypointbrokerage.com/" target="_blank" rel="noopener noreferrer" class="overlay">
-							<div class="folio-item-table">
-								<div class="folio-item-cell">
-									<h3 class="folio-title">Keypoint Brokerage</h3> <span class="folio-types">
-		     					       	  Real Estate | Web Development | Hosting
-		     					      </span>
-								</div>
-							</div>
+						<div class="project-card-body">
+							<p class="project-type">Real estate · Property platform</p>
+							<h3><a href="https://ortigasrealestate.com/" target="_blank" rel="noopener noreferrer">Ortigas Real Estate <span aria-hidden="true">↗</span></a></h3>
+							<p>A property-focused website for publishing and managing real estate listings, with administrative access and content management.</p>
+							<ul class="tag-list"><li>Property listings</li><li>Content management</li><li>Web development</li></ul>
+						</div>
+					</article>
+					<article class="project-card">
+						<a class="project-image" href="http://keypointbrokerage.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Keypoint Brokerage">
+							<img src="images/projects/KEYPOINT%20BROKERAGE.png" alt="Keypoint Brokerage project preview" loading="lazy" decoding="async">
+							<span class="image-arrow" aria-hidden="true">↗</span>
 						</a>
-					</div>
-				</div>
-				<div class="bgrid folio-item">
-					<div class="item-wrap"> <img src="images/projects/EMMANUEL%20REALTY.png" alt="Lighthouse">
-						<a href="#portfolio" class="overlay">
-							<div class="folio-item-table">
-								<div class="folio-item-cell">
-									<h3 class="folio-title">Emmanuel Realty</h3> <span class="folio-types">
-		     					       	  Real Estate | Web Development | Hosting
-		     					      </span>
-								</div>
-							</div>
+						<div class="project-card-body">
+							<p class="project-type">Real estate · Property platform</p>
+							<h3><a href="http://keypointbrokerage.com/" target="_blank" rel="noopener noreferrer">Keypoint Brokerage <span aria-hidden="true">↗</span></a></h3>
+							<p>A property-focused website for publishing and managing real estate listings, with administrative access and content management.</p>
+							<ul class="tag-list"><li>Property listings</li><li>Content management</li><li>Web development</li></ul>
+						</div>
+					</article>
+					<article class="project-card">
+						<div class="project-image">
+							<img src="images/projects/EMMANUEL%20REALTY.png" alt="Emmanuel Realty project preview" loading="lazy" decoding="async">
+						</div>
+						<div class="project-card-body">
+							<p class="project-type">Real estate · Property platform</p>
+							<h3>Emmanuel Realty</h3>
+							<p>A property-focused website for publishing and managing real estate listings, with administrative access and content management.</p>
+							<ul class="tag-list"><li>Property listings</li><li>Content management</li><li>Web development</li></ul>
+						</div>
+					</article>
+					<article class="project-card">
+						<a class="project-image" href="http://perceeadvancesolutionscorp.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Percee Advance Solutions Corp.">
+							<img src="images/projects/PERCEEE%20ADVANCEE%20SOLUTIONS%20CORP.png" alt="Percee Advance Solutions Corp. project preview" loading="lazy" decoding="async">
+							<span class="image-arrow" aria-hidden="true">↗</span>
 						</a>
-					</div>
-				</div>
-				<!-- /folio-item -->
-				<div class="bgrid folio-item">
-					<div class="item-wrap"> <img src="images/projects/PERCEEE%20ADVANCEE%20SOLUTIONS%20CORP.png" alt="Shutterbug">
-						<a href="http://perceeadvancesolutionscorp.com/" target="_blank" rel="noopener noreferrer" class="overlay">
-							<div class="folio-item-table">
-								<div class="folio-item-cell">
-									<h3 class="folio-title">Percee Advance Solutions Corp.</h3> <span class="folio-types">
-		     					       	  Portfolio | Web Development | Hosting
-								</span>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<!-- /folio-item -->
-				<div class="bgrid folio-item">
-					<div class="item-wrap"> <img src="images/projects/INGLAY%20RESTAURANT.png" alt="Beetle">
-						<a href="#portfolio" class="overlay">
-							<div class="folio-item-table">
-								<div class="folio-item-cell">
-									<h3 class="folio-title">Inglay Restaurant</h3> <span class="folio-types">
-		     					       	  POS & Ordering | Web Development | Hosting
-		     					      </span>
-								</div>
-							</div>
-						</a>
-					</div>
+						<div class="project-card-body">
+							<p class="project-type">Business services · Company website</p>
+							<h3><a href="http://perceeadvancesolutionscorp.com/" target="_blank" rel="noopener noreferrer">Percee Advance Solutions Corp. <span aria-hidden="true">↗</span></a></h3>
+							<p>Company website for a provider of structured cabling, electrical, auxiliary, audio/video, and HVAC systems.</p>
+							<ul class="tag-list"><li>Web development</li><li>Hosting</li></ul>
+						</div>
+					</article>
+					<article class="project-card">
+						<div class="project-image">
+							<img src="images/projects/INGLAY%20RESTAURANT.png" alt="Inglay Restaurant project preview" loading="lazy" decoding="async">
+						</div>
+						<div class="project-card-body">
+							<p class="project-type">Restaurant · Management system</p>
+							<h3>Inglay Restaurant</h3>
+							<p>A restaurant management system supporting inventory, sales management, and ordering workflows.</p>
+							<ul class="tag-list"><li>Inventory</li><li>Sales management</li><li>Ordering</li></ul>
+						</div>
+					</article>
 				</div>
 			</div>
-			<!-- /portfolio-wrapper -->
-		</div>
-		<!-- /twelve -->
-	</div>
-	<!-- /portfolio-content -->
-</section>
-<!-- /portfolio -->
-<!-- contact
-================================================== -->
-<section id="contact">
-	<div class="row section-intro">
-		<div class="col-twelve">
-			<h5>Contact Information</h5>
-			<h1>Get in Touch</h1>
-			<p class="lead">Visit my <a href="https://www.linkedin.com/in/cedrickdrice/" style="color: #FF0077" target="_blank">LinkedIn Profile</a> for more details.</p>
-		</div>
-	</div>
+		</section>
 
-	<div class="row contact-info">
-		<div class="col-four tab-full">
-			<div class="icon"> <i class="icon-pin"></i> </div>
-			<h5>Location</h5>
-			<p>Caloocan City<br>National Capital Region<br>Philippines</p>
-		</div>
-
-		<div class="col-four tab-full">
-			<div class="icon"> <i class="icon-mail"></i> </div>
-			<h5>Email</h5>
-			<p><a class="font-color-base" href="mailto:cedrick.drice@gmail.com">cedrick.drice@gmail.com</a></p>
-		</div>
-
-		<div class="col-four tab-full">
-			<div class="icon"> <i class="icon-link"></i> </div>
-			<h5>Connect on LinkedIn</h5>
-			<p><a class="font-color-base" href="https://www.linkedin.com/in/cedrickdrice/" target="_blank">linkedin.com/in/cedrickdrice</a></p>
-		</div>
-	</div>
-</section>
-
-
-<footer>
-	<div class="row">
-
-		<div class="col-six tab-full pull-right social">
-
-			<ul class="footer-social">
-				<li><a target="_blank" href="https://www.linkedin.com/in/cedrickdrice/"><i class="fa fa-linkedin"></i></a></li>
-				<li><a target="_blank" href="https://github.com/cedrickdrice"><i class="fa fa-github"></i></a></li>
-			</ul>
-
-		</div>
-
-		<div class="col-six tab-full">
-			<div class="copyright">
-				<span>Cedrick Drice - Portfolio</span>
-				<span>Reach out: <a target="_blank" href="https://www.linkedin.com/in/cedrickdrice/">Linkedin</a></span>
+		<section class="section-shell education-section" id="education" aria-labelledby="education-title">
+			<div class="container">
+				<header class="section-heading">
+					<p class="eyebrow">Academic background</p>
+					<h2 id="education-title">Education</h2>
+				</header>
+				<article class="education-card">
+					<div><h3>Bachelor of Science in Computer Science</h3><p>University of Caloocan City</p></div>
+					<p class="experience-date">June 2015 – April 2019</p>
+				</article>
 			</div>
-		</div>
+		</section>
 
-		<div id="go-top">
-			<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-		</div>
+		<section class="contact-section section-shell" id="contact" aria-labelledby="contact-title">
+			<div class="container contact-inner">
+				<div>
+					<p class="eyebrow">Contact</p>
+					<h2 id="contact-title">Let’s connect.</h2>
+					<p>I’m open to discussing software engineering opportunities and interesting technical challenges.</p>
+				</div>
+				<div class="contact-actions">
+					<a class="button button-light" href="mailto:cedrick.drice@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+					<a href="https://www.linkedin.com/in/cedrickdrice/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+					<a href="https://github.com/cedrickdrice" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+					<a href="https://cedrickdrice.github.io" target="_blank" rel="noopener noreferrer">Portfolio URL <span aria-hidden="true">↗</span></a>
+				</div>
+			</div>
+		</section>
+	</main>
 
-	</div> <!-- /row -->
-</footer>
-<!-- /contact -->
-<div id="preloader">
-	<div id="loader"></div>
-</div>
-<!-- Java Script
-================================================== -->
-<script src="js/jquery-2.1.3.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">CD</span><span class="brand-name">Cedrick Drice</span></a>
+			<p>© <span id="current-year">2026</span> Cedrick Drice</p>
+			<a href="#home">Back to top ↑</a>
+		</div>
+	</footer>
 </body>
-
 </html>
